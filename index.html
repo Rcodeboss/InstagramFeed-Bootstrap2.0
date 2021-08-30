@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Fedd Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  </head>
+<body>
+
+    <div class="container-fuild" style="background-color: gray;">
+        <nav class="navbar navbar-light bg-light" style="box-shadow: 0 0 30px 1px ;">
+            <div class="container-fluid">
+
+              <a class="navbar-brand">
+                <p class="fs-1">
+                  <i class="fab fa-instagram" aria-hidden="false"></i>
+                <strong>Instagram</strong>
+                </p>
+                
+              </a>
+              <form class="d-flex">
+
+                <div class="btn-group">
+
+
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Create a new post
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <textarea style="margin: auto;" cols="65" rows="10"></textarea>
+                        </div>
+                        <div class="modal-body">
+
+                          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-warning">
+                              <i class="fas fa-camera"></i>
+                            </button>
+                            <button type="button" class="btn btn-warning">
+                              <i class="fas fa-map-marker-alt"></i>
+                            </button>
+                            <button type="button" class="btn btn-warning">
+                              <i class="fas fa-user"></i>
+                            </button>
+                          </div>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                          <button type="button" class="btn btn-danger">Publish</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+          </nav>
+
+
+          <div class="container-fluid">
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                  <i class="fas fa-th" style="color: rgb(53, 51, 51);"></i>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                  <i class="fas fa-square" style="color: rgb(53, 51, 51);"></i>
+                </button>
+              </li>
+             
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col g-1">
+                      <img src="https://m.media-amazon.com/images/I/71RyMcAwIJL._AC_SL1500_.jpg" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col g-1">
+                      <img src="https://images.squarespace-cdn.com/content/v1/52d46dd9e4b0f63bcb07fa01/1586989938831-NX06L5JJ2H2VRCCVCYOF/R34+GT-R_9-2.jpg?format=2500w" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col g-1">
+                      <img src="http://cdn.drivingline.com/media/2317590/nissanskylinegtr_vspecii_r34_motorex-1.jpg" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col g-1">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpY7n2aqxmioELUQf2H3lyQGOHhnEvW-Vavg&usqp=CAU" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col g-1">
+                      <img src="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2021/07/20205450/Speedhunters_R34roller-3.jpg" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col g-1">
+                      <img src="https://www.fourwheeler.com/uploads/sites/5/2020/03/2000-Nissan-Skyline-GT-R-V-Spec-NISMO-R-Tune-Front-Bumper-01.jpg" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col g-1">
+                      <img src="https://www.fourwheeler.com/uploads/sites/5/2021/02/001-1jz-r34-skyline-gt-lead.jpg" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col g-1">
+                      <img src="https://www.fourwheeler.com/uploads/sites/5/2013/07/Top-10-Nissan-Skyline-GT-Rs.jpg?fit=around%7C875:492" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                    <div class="col g-1">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/42/182/418/nissan-gtr-r34-nissan-forza-horizon-4-video-games-nissan-skyline-gt-r-r34-hd-wallpaper-preview.jpg" alt="" style="width: 100%; height: 100%;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab" style="background-color: gray;">
+                <div class="container m-auto">
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto; ;">
+                    <img src="https://m.media-amazon.com/images/I/71RyMcAwIJL._AC_SL1500_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto; box-shadow:black 0 0 30px 1px ;">
+                    <img src="https://images.squarespace-cdn.com/content/v1/52d46dd9e4b0f63bcb07fa01/1586989938831-NX06L5JJ2H2VRCCVCYOF/R34+GT-R_9-2.jpg?format=2500w" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto;">
+                    <img src="http://cdn.drivingline.com/media/2317590/nissanskylinegtr_vspecii_r34_motorex-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpY7n2aqxmioELUQf2H3lyQGOHhnEvW-Vavg&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto;">
+                    <img src="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2021/07/20205450/Speedhunters_R34roller-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto;">
+                    <img src="https://www.fourwheeler.com/uploads/sites/5/2020/03/2000-Nissan-Skyline-GT-R-V-Spec-NISMO-R-Tune-Front-Bumper-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 50rem; margin: 20px auto 20px auto;">
+                    <img src="https://www.fourwheeler.com/uploads/sites/5/2021/02/001-1jz-r34-skyline-gt-lead.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <strong>BreathCo.</strong></p>
+                      <h6><strong>#GTR #R34</strong></h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+      
+            </div>
+          </div>
+    </div>
+       
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
